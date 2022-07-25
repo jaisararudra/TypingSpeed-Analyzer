@@ -70,7 +70,7 @@ userInput.addEventListener("input", () => {
                 char.classList.add("fail");
 
             }
-            document.getElementById("mistakes").innerText = "<h1><mistakes</h1>";
+            document.getElementById("mistakes").innerText = mistakes;
         }
         //Return true if all the characters are entered correctly 
         let check = quoteChars.every((element)=>{
